@@ -16,7 +16,6 @@ build() {
     flutter pub get
     flutter build linux --release
 }
-
 package() {
     cd "$pkgname"
     make DESTDIR="$pkgdir" PREFIX=/usr install
