@@ -14,7 +14,8 @@ sha256sums=('SKIP')
 prepare() {
   cd "$srcdir/yuma123"
   libtoolize
-  autoreconf -i -v -f
+  autoupdate
+  autoreconf -i -f
 }
 
 build() {
