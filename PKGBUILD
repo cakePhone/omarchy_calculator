@@ -11,6 +11,12 @@ makedepends=('flutter' 'git')
 source=("git+https://github.com/cakephone/omarchy_calculator.git#tag=v$pkgver")
 sha256sums=('SKIP')
 
+prepare() {
+  cd "$srcdir/yuma123"
+  libtoolize
+  autoreconf -i -v -f
+}
+
 build() {
     cd "$pkgname"
     flutter pub get
