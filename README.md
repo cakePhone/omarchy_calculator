@@ -4,7 +4,7 @@ A minimal opinionated calculator app for Omarchy.
 
 ![showcase screenshot](images/showcase-shot.png)
 
-![showcase video](images/showcase-video.mp4)
+https://github.com/user-attachments/assets/2912c223-414d-4698-b305-36f450af8ed2
 
 ## Controls
 
