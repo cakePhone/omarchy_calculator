@@ -1,0 +1,15 @@
+pkgbase = omarchy-calculator-git
+	pkgdesc = A minimal calculator app built with the Omarchy theme for Flutter
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/yourusername/omarchy-calculator
+	arch = x86_64
+	license = MIT
+	makedepends = flutter
+	makedepends = git
+	depends = gtk3
+	depends = glibc
+	source = git+https://github.com/cakephone/omarchy_calculator.git#tag=v1.0.0
+	sha256sums = SKIP
+
+pkgname = omarchy-calculator-git
