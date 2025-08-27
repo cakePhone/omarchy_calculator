@@ -2,16 +2,6 @@
 
 A minimal opinionated calculator app for Omarchy.
 
-## Features
-
-- **Minimal Interface**: Clean text-field based input with no borders
-- **Ghost Preview**: Shows calculation results as you type
-- **Calculation History**: Maintains a history of calculations
-- **Sliding Button Panel**: Optional button interface that slides up from bottom
-- **Keyboard Navigation**: Full keyboard support with shortcuts
-- **Color-Coded Buttons**: Different colors for operations, functions, and numbers
-- **Omarchy Theme**: Beautiful terminal-inspired design
-
 ## Controls
 
 - **Text Input**: Type mathematical expressions directly
@@ -22,6 +12,7 @@ A minimal opinionated calculator app for Omarchy.
 ## Installation
 
 ### From AUR (Arch Linux)
+
 ```bash
 yay -S omarchy-calculator
 # or
@@ -29,6 +20,7 @@ paru -S omarchy-calculator
 ```
 
 ### Local Installation
+
 ```bash
 git clone https://github.com/yourusername/omarchy-calculator
 cd omarchy-calculator
@@ -36,6 +28,7 @@ cd omarchy-calculator
 ```
 
 ### Manual Build
+
 ```bash
 flutter pub get
 flutter build linux --release
@@ -45,6 +38,7 @@ flutter build linux --release
 ## Development
 
 ### Running in Development
+
 ```bash
 flutter pub get
 flutter run -d linux
@@ -55,17 +49,20 @@ flutter run -d linux
 For maintainers who want to publish to AUR:
 
 1. **Test the package locally:**
+
    ```bash
    ./aur-helper.sh build
    ./aur-helper.sh test
    ```
 
 2. **Generate .SRCINFO:**
+
    ```bash
    ./aur-helper.sh srcinfo
    ```
 
 3. **Prepare AUR repository:**
+
    ```bash
    ./aur-helper.sh aur
    ```
