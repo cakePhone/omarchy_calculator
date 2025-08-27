@@ -43,6 +43,7 @@ flutter build linux --release
 
 ### Running in Development
 
+### Running in Development
 ```bash
 flutter pub get
 flutter run -d linux
