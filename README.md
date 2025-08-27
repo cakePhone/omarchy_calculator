@@ -2,6 +2,10 @@
 
 A minimal opinionated calculator app for Omarchy.
 
+![showcase screenshot](images/showcase-shot.png)
+
+![showcase video](images/showcase-video.mp4)
+
 ## Controls
 
 - **Text Input**: Type mathematical expressions directly
