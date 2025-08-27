@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="#1a1a1a" rx="8"/>
+  <rect x="8" y="8" width="48" height="48" fill="#2d2d2d" rx="4"/>
+  
+  <!-- Calculator display -->
+  <rect x="12" y="12" width="40" height="12" fill="#0a0a0a" rx="2"/>
+  <text x="48" y="21" fill="#00ff00" text-anchor="end" font-family="monospace" font-size="8">123.45</text>
+  
+  <!-- Button grid -->
+  <rect x="12" y="28" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="22" y="28" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="32" y="28" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="42" y="28" width="8" height="6" fill="#ff6b6b" rx="1"/>
+  
+  <rect x="12" y="36" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="22" y="36" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="32" y="36" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="42" y="36" width="8" height="6" fill="#4ecdc4" rx="1"/>
+  
+  <rect x="12" y="44" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="22" y="44" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="32" y="44" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="42" y="44" width="8" height="6" fill="#4ecdc4" rx="1"/>
+  
+  <rect x="12" y="52" width="18" height="6" fill="#404040" rx="1"/>
+  <rect x="32" y="52" width="8" height="6" fill="#404040" rx="1"/>
+  <rect x="42" y="52" width="8" height="6" fill="#45b7d1" rx="1"/>
+  
+  <!-- Button labels -->
+  <text x="16" y="32" fill="#ffffff" font-family="monospace" font-size="4" text-anchor="middle">7</text>
+  <text x="26" y="32" fill="#ffffff" font-family="monospace" font-size="4" text-anchor="middle">8</text>
+  <text x="36" y="32" fill="#ffffff" font-family="monospace" font-size="4" text-anchor="middle">9</text>
+  <text x="46" y="32" fill="#ffffff" font-family="monospace" font-size="4" text-anchor="middle">C</text>
+</svg>
