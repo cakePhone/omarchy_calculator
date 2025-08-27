@@ -1,5 +1,5 @@
 # Maintainer: Your Name <your.email@example.com>
-pkgname=omarchy-calculator
+pkgname=omarchy-calculator-git
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A minimal calculator app built with the Omarchy theme for Flutter"
@@ -8,7 +8,7 @@ url="https://github.com/yourusername/omarchy-calculator"
 license=('MIT')
 depends=('gtk3' 'glibc')
 makedepends=('flutter' 'git')
-source=("git+https://github.com/yourusername/omarchy-calculator.git#tag=v$pkgver")
+source=("git+https://github.com/cakephone/omarchy_calculator.git#tag=v$pkgver")
 sha256sums=('SKIP')
 
 build() {
