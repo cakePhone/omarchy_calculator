@@ -40,6 +40,7 @@ flutter run -d linux
 ## Architecture
 
 Built as a single-page Flutter application using:
+
 - `StatefulWidget` for state management
 - `TextField` for expression input
 - `AnimatedPositioned` for smooth panel transitions
@@ -48,5 +49,6 @@ Built as a single-page Flutter application using:
 ## Testing
 
 The application has been tested on:
+
 - ✅ Linux Desktop
 - ✅ Web Browser (http://localhost:8081)

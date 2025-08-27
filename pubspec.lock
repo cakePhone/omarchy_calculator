@@ -41,14 +41,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.8"
   fake_async:
     dependency: transitive
     description:
@@ -74,10 +66,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_omarchy
-      sha256: b0434c983f2290ee8617cae96dc9ca1e962aaa4f02250b64a08738c7d178d676
+      sha256: "572f8cd737177be144bf66a43fbd77a45e6db47983821958f55806a1c755accb"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.5"
+    version: "0.1.6"
   flutter_test:
     dependency: "direct dev"
     description: flutter

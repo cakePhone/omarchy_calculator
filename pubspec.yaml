@@ -1,11 +1,11 @@
 name: omarchy_calculator
 description: "A minimal calculator app built with the Omarchy theme for Flutter."
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.9.0 <4.0.0'
+  sdk: ">=3.9.0 <4.0.0"
 
 dependencies:
   flutter:
