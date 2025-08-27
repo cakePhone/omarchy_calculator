@@ -8,20 +8,15 @@ url="https://github.com/yourusername/omarchy-calculator"
 license=('MIT')
 depends=('gtk3' 'glibc')
 makedepends=('flutter' 'git')
-source=("git+https://github.com/cakephone/omarchy_calculator.git#tag=v$pkgver")
+source=("git+https://github.com/cakephone/omarchy_calculator.git")
 sha256sums=('SKIP')
 
-#source=("https://github.com/[your package].tar.gz")
-
 build() {
-    cd "$pkgname"
-    flutter pub get
-    flutter build linux --release
+  cd "$pkgname"
+  flutter pub get
+  flutter build linux --release
 }
 package() {
-    cd "$pkgname"
-    make DESTDIR="$pkgdir" PREFIX=/usr install
+  cd "$pkgname"
+  make DESTDIR="$pkgdir" PREFIX=/usr install
 }
-
-# Optional: Add a .SRCINFO generation helper
-# makepkg --printsrcinfo > .SRCINFO
