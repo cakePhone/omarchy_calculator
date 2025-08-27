@@ -18,66 +18,51 @@ https://github.com/user-attachments/assets/2912c223-414d-4698-b305-36f450af8ed2
 ### From AUR (Arch Linux)
 
 ```bash
-yay -S omarchy-calculator
+yay -S omarchy-calculator-git
 # or
-paru -S omarchy-calculator
-```
-
-### Local Installation
-
-```bash
-git clone https://github.com/yourusername/omarchy-calculator
-cd omarchy-calculator
-./install.sh
+paru -S omarchy-calculator-git
 ```
 
 ### Manual Build
 
 ```bash
+git clone https://github.com/cakePhone/omarchy_calculator
+cd omarchy_calculator
 flutter pub get
 flutter build linux --release
 # Binary will be in build/linux/x64/release/bundle/
 ```
 
+### Local Installation (from source)
+
+```bash
+git clone https://github.com/cakePhone/omarchy_calculator
+cd omarchy_calculator
+make install
+```
+
+## Development
+
 ## Development
 
 ### Running in Development
 
-### Running in Development
 ```bash
 flutter pub get
 flutter run -d linux
 ```
 
-### AUR Publishing
+### Building for Release
 
-For maintainers who want to publish to AUR:
+```bash
+flutter build linux --release
+```
 
-1. **Test the package locally:**
+### Installing Locally
 
-   ```bash
-   ./aur-helper.sh build
-   ./aur-helper.sh test
-   ```
-
-2. **Generate .SRCINFO:**
-
-   ```bash
-   ./aur-helper.sh srcinfo
-   ```
-
-3. **Prepare AUR repository:**
-
-   ```bash
-   ./aur-helper.sh aur
-   ```
-
-4. **Or do everything at once:**
-   ```bash
-   ./aur-helper.sh all
-   ```
-
-The helper script will guide you through the entire process.
+```bash
+make install
+```
 
 ## The backstory
 
