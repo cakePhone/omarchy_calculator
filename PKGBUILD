@@ -1,4 +1,4 @@
-# Maintainer: Your Name <your.email@example.com>
+# Maintainer: Miguel Santos <miguelandrelealsantos.business@gmail.com>
 pkgname=omarchy-calculator-git
 pkgver=1.0.0
 pkgrel=1
