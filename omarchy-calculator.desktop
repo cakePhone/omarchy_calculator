@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Omarchy Calculator
 Comment=A minimal calculator app built with the Omarchy theme
-Exec=omarchy-calculator
+Exec=$HOME/.local/bin/omarchy-calculator
 Icon=omarchy-calculator
 Type=Application
 Categories=Office;Calculator;Utility;
